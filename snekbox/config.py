@@ -8,7 +8,7 @@ from google.protobuf import descriptor as _descriptor
 from google.protobuf import message as _message
 from google.protobuf import reflection as _reflection
 from google.protobuf import symbol_database as _symbol_database
-
+from google.protobuf import descriptor_pb2
 # @@protoc_insertion_point(imports)
 
 _sym_db = _symbol_database.Default()
@@ -971,28 +971,28 @@ DESCRIPTOR.enum_types_by_name['RLimit'] = _RLIMIT
 
 IdMap = _reflection.GeneratedProtocolMessageType('IdMap', (_message.Message,), dict(
   DESCRIPTOR = _IDMAP,
-  __module__ = 'config_pb2'
+  __module__ = 'config'
   # @@protoc_insertion_point(class_scope:nsjail.IdMap)
   ))
 _sym_db.RegisterMessage(IdMap)
 
 MountPt = _reflection.GeneratedProtocolMessageType('MountPt', (_message.Message,), dict(
   DESCRIPTOR = _MOUNTPT,
-  __module__ = 'config_pb2'
+  __module__ = 'config'
   # @@protoc_insertion_point(class_scope:nsjail.MountPt)
   ))
 _sym_db.RegisterMessage(MountPt)
 
 Exe = _reflection.GeneratedProtocolMessageType('Exe', (_message.Message,), dict(
   DESCRIPTOR = _EXE,
-  __module__ = 'config_pb2'
+  __module__ = 'config'
   # @@protoc_insertion_point(class_scope:nsjail.Exe)
   ))
 _sym_db.RegisterMessage(Exe)
 
 NsJailConfig = _reflection.GeneratedProtocolMessageType('NsJailConfig', (_message.Message,), dict(
   DESCRIPTOR = _NSJAILCONFIG,
-  __module__ = 'config_pb2'
+  __module__ = 'config'
   # @@protoc_insertion_point(class_scope:nsjail.NsJailConfig)
   ))
 _sym_db.RegisterMessage(NsJailConfig)

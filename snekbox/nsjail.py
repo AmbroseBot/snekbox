@@ -13,7 +13,7 @@ from typing import Iterable
 from google.protobuf import text_format
 
 from snekbox import DEBUG
-from snekbox.config_pb2 import NsJailConfig
+from snekbox.config import NsJailConfig
 
 log = logging.getLogger(__name__)
 
