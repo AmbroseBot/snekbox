@@ -5,6 +5,8 @@
 
 # snekbox
 
+Isolated fork, won't be pushed upstream. Just want access to configs n such within portainer deployment.
+
 Python sandbox runners for executing code in isolation aka snekbox.
 
 A client sends Python code to a snekbox, the snekbox executes the code, and finally the results of the execution are returned to the client.
